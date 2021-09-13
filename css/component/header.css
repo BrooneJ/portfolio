@@ -1,0 +1,20 @@
+header {
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 1000;
+    padding: 1rem 7%;
+}
+
+header .navbar a {
+    font-size: 1.7rem;
+    padding: 1.5rem;
+}
+
+header .navbar a:hover {
+    color: #DC0014;
+}
