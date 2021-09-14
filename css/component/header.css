@@ -8,6 +8,7 @@ header {
     justify-content: space-around;
     z-index: 1000;
     padding: 1rem 7%;
+    background-color: white;
 }
 
 header .navbar a {
