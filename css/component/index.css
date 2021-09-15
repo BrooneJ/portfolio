@@ -65,9 +65,21 @@ p{
 #portada, #portada-back{
 	background-size: 100% 100%;
 }
-#pageImg {
-    background-image: url("/photo2.jpeg");
+#first-page {
+    background-image: url("/photo.jpeg");
+    background-size: 100% 100%;
 }
+
+#second-page {
+    background-image: url("/Teamwork.jpeg");
+    background-size: 100% 100%;
+}
+
+#third-page {
+    background-image: url("/ux.png");
+    background-size: 100% 100%;
+}
+
 
 .index-back {
     background-image: url('/table.jpeg');
