@@ -5,6 +5,7 @@
 }
 
 .contentWrap .album {
+    cursor: pointer;
     position: absolute;
     top: 47%;
     left: 55%;
