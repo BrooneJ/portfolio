@@ -1,8 +1,8 @@
-let front = document.querySelector('.face-front');
-let back = document.querySelector('.face-back');
-let flip = document.querySelector('.book-content');
-let uno = document.querySelectorAll('.book');
-let portada = document.querySelectorAll('#portada');
+const front = document.querySelector('.face-front');
+const back = document.querySelector('.face-back');
+const flip = document.querySelector('.book-content');
+const uno = document.querySelectorAll('.book');
+const portada = document.querySelectorAll('#portada');
 
 let contZindex = 2;
 let customZindex = 1;

@@ -8,21 +8,31 @@
     justify-content: center;
     align-items: center;
     transition: all 1s cubic-bezier(.72,.02,.42,.87);
-    clip-path: circle(100% at 50% 50%);
+    clip-path: circle(150% at 50% 50%);
+    overflow-y: auto;
   }
 
   .modal .bg {
     width: 100%;
-    height: 100%;
+    height: 200vh;
     background-color: rgba(0, 0, 0, 0.6);
   }
 
   .modalBox {
     position: absolute;
     background-color: #fff;
-    width: 400px;
-    /* height: 200px; */
-    padding: 15px;
+    width: 718px;
+    padding: 2rem;
+    top: 5rem;
+  }
+
+  .modalBox p {
+      font-size: 1rem;
+  }
+
+  .title {
+      font-size: 3rem;
+      margin: 20px 0;
   }
 
   .modalBox button {
@@ -38,4 +48,5 @@
 
   .closeBtn{
       cursor: pointer;
+      top: 5vh;
   }

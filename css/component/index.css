@@ -57,32 +57,32 @@ p{
 	border-bottom-right-radius: 3px;
 }
 #portada{
-	background: url('/cover.png');
+	background: url('/img/cover.png');
 }
 #portada-back{
-	background: url('/back-cover.png');
+	background: url('/img/back-cover.png');
 }
 #portada, #portada-back{
 	background-size: 100% 100%;
 }
 #first-page {
-    background-image: url("/photo.jpeg");
+    background-image: url("/img/photo.jpeg");
     background-size: 100% 100%;
 }
 
 #second-page {
-    background-image: url("/Teamwork.jpeg");
+    background-image: url("/img/Teamwork.jpeg");
     background-size: 100% 100%;
 }
 
 #third-page {
-    background-image: url("/ux.png");
+    background-image: url("/img/ux.png");
     background-size: 100% 100%;
 }
 
 
 .index-back {
-    background-image: url('/table.jpeg');
+    background-image: url('/img/table.jpeg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
