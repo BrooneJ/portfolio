@@ -46,6 +46,7 @@ p{
 	box-shadow: inset 3px 0px 20px -7px black;
 	border-top-left-radius: 3px;
 	border-bottom-left-radius: 3px;
+	padding: 30px;
 }
 .face-back{
 	position: absolute;
@@ -102,4 +103,10 @@ p{
 	p{
 		font-size: 12px;
 	}
+}
+
+.pageNum{
+	position: absolute; 
+	right: 15px; 
+	bottom: 15px;
 }
