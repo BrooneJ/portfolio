@@ -58,32 +58,32 @@ p{
 	border-bottom-right-radius: 3px;
 }
 #portada{
-	background: url('/img/cover.png');
+	background: url('/portfolio/img/cover.png');
 }
 #portada-back{
-	background: url('/img/back-cover.png');
+	background: url('/portfolio/img/back-cover.png');
 }
 #portada, #portada-back{
 	background-size: 100% 100%;
 }
 #first-page {
-    background-image: url("/img/photo.jpeg");
+    background-image: url("/portfolio/img/photo.jpeg");
     background-size: 100% 100%;
 }
 
 #second-page {
-    background-image: url("/img/Teamwork.jpeg");
+    background-image: url("/portfolio/img/Teamwork.jpeg");
     background-size: 100% 100%;
 }
 
 #third-page {
-    background-image: url("/img/ux.png");
+    background-image: url("/portfolio/img/ux.png");
     background-size: 100% 100%;
 }
 
 
 .index-back {
-    background-image: url('/img/table.jpeg');
+    background-image: url('/portfolio/img/table.jpeg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
