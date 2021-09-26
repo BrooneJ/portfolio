@@ -1,11 +1,152 @@
-.storyDiv {
-    position: fixed;
-    top: 0;
-    right: 0;
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 100px;
+body {
+	font-family: 'Noto Sans JP', sans-serif;
+}
+div, section, header, footer, p, h1, h2 {
+	box-sizing: border-box;
+}
+h1{
+    font-size: 2rem;
+    padding: 0.67rem 0;
+}
+p{
+    font-size: 1rem;
+}
+.global-width {
+	max-width: 620px;   
+	margin: 0 auto;
+	padding: 0 1rem;
+	/* display: flex;
+	justify-content: center; */
+}
+.scroll-graphic{
+	overflow-x: hidden;
+	position: sticky;
+	top: 0;
+	height: 100vh;
+}
+.graphic-item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: 0.5s;
+}
+.visible {
+	opacity: 1;
+}
+.graphic-item img {
+	max-width: 100%;
+	height: 80%;
+}
+.scroll-text{
+	padding-bottom: 1px;
+	position: relative; /* 기본값은 static이고 scroll-text가 scroll-graphic보다 아래 있기 때문에 relative를 하면 위로 올라옴*/
+}
+.scene-img {
+	max-height: 100vh;
+}
+.step {
+	margin-bottom: 60vh;
+	padding: 0.5rem 1rem;
+	border-radius: 10px;
+	background: rgba(255,255,255,0.9);
+	box-shadow: rgba(0, 0, 0, 0.3) 0 0 3px;
+}
+.step p {
+	line-height: 30px;
+}
+.mouse{
+	margin-top: 30px;
+    width: 40px;
+    height: 60px;
+    border: 3px solid black;
+    border-radius: 48px;
+    position: relative;
+}
+.mouse::before{
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 15px;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+	border: 2px solid black;
+    transform: translate(-50%, -100%) rotate(45deg);
+	border-top: transparent;
+  	border-left: transparent;
+    animation: scroll 1s infinite;
+}
+@keyframes scroll{
+    from{
+        opacity: 1;
+        top: 20px;
+    }
+    to{
+        opacity: 0;
+        top: 50px;
+    }
+}
+.storyMenu{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.storyBtn{
+	height: 60px;
+	width: 270px;
+	margin-top: 30px;
+	padding: 10px;
+	background-image: linear-gradient(144.4deg, white 50%, black 50%);
+	background-size: 250% 100%;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	border: 1px solid black;
+	background-position: right bottom;
+  	transition: .6s ease;
+  	position: relative;
+}
+.storyBtn:hover{
+	background-position: left top;
+	color: black;
+}
+.storyBtn::after{
+    position: absolute;
+    content: "";
+    width: 7px;
+    height: 7px;
+    top: 35px;
+    left: 10px;
+    transform: translateX(-50%);
+	border: 2px solid white;
+    transform: translate(-50%, -100%) rotate(45deg);
+	border-bottom: transparent;
+  	border-left: transparent;
+	transition: 1s;
+}
+.storyBtn:hover:after{
+    border: 2px solid black;
+	border-bottom: transparent;
+  	border-left: transparent;
+	transition: 1s;
+}
+.backArrow{
+	display: flex;
+	justify-content: center; 
+	margin-bottom: 30px; 
+	align-items: center;
+}
+.backArrow h1{
+	font-size: 60px;
+}
+.page-title-in{
+	font-size: 47px;
 }
