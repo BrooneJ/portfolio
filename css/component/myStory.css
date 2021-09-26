@@ -54,7 +54,7 @@ p{
 	margin-bottom: 60vh;
 	padding: 0.5rem 1rem;
 	border-radius: 10px;
-	background: rgba(255,255,255,0.8);
+	background: rgba(255,255,255,0.9);
 	box-shadow: rgba(0, 0, 0, 0.3) 0 0 3px;
 }
 .step p {
@@ -137,4 +137,16 @@ p{
 	border-bottom: transparent;
   	border-left: transparent;
 	transition: 1s;
+}
+.backArrow{
+	display: flex;
+	justify-content: center; 
+	margin-bottom: 30px; 
+	align-items: center;
+}
+.backArrow h1{
+	font-size: 60px;
+}
+.page-title-in{
+	font-size: 47px;
 }
